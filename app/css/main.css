@@ -85,6 +85,11 @@ footer {
   padding: 50px;
   background-color: #000000;
 }
+@media (max-width: 768px) {
+  footer {
+    padding: 15px;
+  }
+}
 footer .phone, footer .mail {
   font-style: normal;
   font-weight: normal;
