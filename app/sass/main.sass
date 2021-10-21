@@ -49,9 +49,12 @@ $colorblack: #000000
           outline: none
           border: none
           outline: none !important
-          box-shadow: inset 2px 2px 5px rgb(154 147 140 / 39%), 1px 1px 20px #ff6abf
           color: $colorwhite
           font-weight: 600
+          &:hover
+            transition: .2s ease
+            box-shadow: inset 2px 2px 5px rgb(154 147 140 / 39%), 1px 1px 20px #ff6abf
+
         .continue
           margin-top: 30px
           color: $color82
@@ -85,6 +88,9 @@ footer
       margin-bottom: 14px
     .icon
       cursor: pointer
+      &:hover
+        transform: scale(1.1)
+        transition: .2s ease
   .footer-info
     font-style: normal
     font-weight: normal

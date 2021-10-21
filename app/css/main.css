@@ -55,10 +55,15 @@
   outline: none;
   border: none;
   outline: none !important;
-  -webkit-box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.39), 1px 1px 20px #ff6abf;
-          box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.39), 1px 1px 20px #ff6abf;
   color: white;
   font-weight: 600;
+}
+.main-wrapper main #manDigital .block-description .btn-custom:hover {
+  -webkit-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+  -webkit-box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.39), 1px 1px 20px #ff6abf;
+          box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.39), 1px 1px 20px #ff6abf;
 }
 .main-wrapper main #manDigital .block-description .continue {
   margin-top: 30px;
@@ -108,6 +113,14 @@ footer .mail {
 }
 footer .icon-block .icon {
   cursor: pointer;
+}
+footer .icon-block .icon:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 footer .footer-info {
   font-style: normal;
